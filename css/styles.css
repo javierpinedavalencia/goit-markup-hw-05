@@ -635,4 +635,55 @@ text-decoration: none;
  display: inline-block;
  transition: background-color .3s;
 }
+.modal-close{
+  text-decoration: none; 
+  color: #000;
+  background-color: whitesmoke;
+  padding:0.3em 0.3em ;
+  border: 0px  solid;
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 300;
+  transition: background-color .3s;
+}
+
+
+
+  /* affter index ------------------------------*/
+  .after{
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .after:after{
+    position: absolute;
+    content:'' ;
+    border: 3px  solid  #0D99FF;
+    border-radius: 10px;
+    bottom:0;
+    left: 0;
+    width: 70px;
+    margin-top:10px ;
+  }
+
+  /* affter portaflio */
+
+  .afterp{
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  .afterp:after{
+    position: absolute;
+    content:'' ;
+    border: 3px  solid  #0D99FF;
+    border-radius: 10px;
+    bottom:0;
+    left: 0;
+    width: 100px;
+    margin-top:10px ;
+  }
+
+    /* and affter index ------------------------------*/
+
 
